@@ -6,7 +6,7 @@ import aboutImage3 from "../../assets/images/about-image-3.png"
 function About() {
   return (
     <div className="py-[20px]">
-        <div className="w-[1240px] mx-auto px-[20px] py-[20px]">
+        <div className="w-[1220px] mx-auto px-[20px] py-[20px]">
             <h1 className="text-[44px] font-[500] text-[#211F54] text-center">About us</h1>
             <p className="text-[20px] text-[#6E7191] text-center w-[50%] mx-auto">Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque nisi felis non ultrices massa id egestas quam velit pretium nu.</p>
             <div className="flex items-center gap-[20px] py-[35px]">

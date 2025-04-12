@@ -1,6 +1,6 @@
 function Footer(){
     return (
-        <div>
+        <div className="border-1 border-red-500">
             <h1>Footer</h1>
         </div>
     )

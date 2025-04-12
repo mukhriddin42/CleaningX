@@ -1,10 +1,10 @@
 import homeImage from "../../assets/images/IMAGE.png";
-import phoneLogo from "../../assets/icons/phone-logo.png"
+import phoneLogo from "../../assets/icons/phone-logo.png";
 
 function Home() {
     return (
         <div className="py-[20px]">
-            <div className="w-[1240px] mx-auto px-[20px] flex items-center gap-[30px] justify-between">
+            <div className="w-[1220px] mx-auto px-[20px] flex items-center gap-[30px] justify-between">
                 <div className=" w-[40%]">
                     <h1 className="text-[#211F54] text-[55px] leading-[60px] font-[700] pb-[25px]">Quality cleaning for your home</h1>
                     <p className="text-[#6E7191] text-[18px] pb-[25px]">Condimentum mauris sit cursus amet id non neque pharetra nulla ornare sed facilisis senectus dapibus nibh ultrices eget suscipit aliquet et nulla magna lacus penatibus.</p>
