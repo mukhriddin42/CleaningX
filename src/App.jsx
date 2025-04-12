@@ -1,5 +1,11 @@
-import Header from "./assets/components/header/Header"
-import Home from "./assets/components/home/Home"
+import About from "./components/about/about"
+import Articles from "./components/articles/Articles"
+import Contactus from "./components/contactus/Contactus"
+import Footer from "./components/footer/Footer"
+import Header from "./components/header/Header"
+import Home from "./components/home/Home"
+import Sanitization from "./components/sanitization/sanitization"
+import Services from "./components/services/Services"
 
 function App() {
 
@@ -7,6 +13,12 @@ function App() {
     <>
       <Header />
       <Home />
+      <About />
+      <Services />
+      <Sanitization />
+      <Articles />
+      <Contactus />
+      <Footer />
     </>
   )
 }
