@@ -14,8 +14,8 @@ function Articles() {
                 </div>
                 <div className="py-[50px] flex gap-[40px]  ">
                     <div>
-                        <img src={mainImage1} alt="Plesos rasmi" />
-                        <div className="border-1 w-[80%] mx-auto p-[30px] rounded-[24px] bg-[#fff] -translate-y-[40px]">
+                        <img src={mainImage1} alt="Plesos rasmi" data-aos="fade-up" />
+                        <div className="border-1 w-[80%] mx-auto p-[30px] rounded-[24px] bg-[#fff] -translate-y-[40px]" data-aos="fade-up">
                             <h2 className="text-[24px] font-[500] text-[#211F54] leading-[34px]">8 best vacuum cleaners to clean any mess for your home in 2022</h2>
                             <p className="text-[18px] leading-[30px] text-[#6E7191] pt-[15px]">Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port titor sit males.</p>
                             <div className="flex items-center justify-between pt-[15px]">
@@ -25,8 +25,8 @@ function Articles() {
                         </div>
                     </div>
                     <div>
-                        <img src={mainImage2} alt="Kutubxona supurayotgan opa rasmi" />
-                        <div className="border-1 w-[80%] mx-auto p-[30px] rounded-[24px] bg-[#fff] -translate-y-[40px]">
+                        <img src={mainImage2} alt="Kutubxona supurayotgan opa rasmi" data-aos="fade-up" />
+                        <div className="border-1 w-[80%] mx-auto p-[30px] rounded-[24px] bg-[#fff] -translate-y-[40px]" data-aos="fade-up">
                             <h2 className="text-[24px] font-[500] text-[#211F54] leading-[34px]">How to properly disinfect your phone and other electronics</h2>
                             <p className="text-[18px] leading-[30px] text-[#6E7191] pt-[15px]">Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port titor sit males.</p>
                             <div className="flex items-center justify-between pt-[15px]">

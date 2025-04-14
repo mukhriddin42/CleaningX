@@ -11,17 +11,17 @@ function Services() {
                     <p className="text-[20px] text-[#6E7191] cursor-pointer hover:text-[#0075FF] duration-300">Explore services</p>
                 </div>
                 <div className="flex items-center gap-[20px] py-[100px]">
-                    <div className="flex flex-col items-center gap-[15px]">
+                    <div className="flex flex-col items-center gap-[15px]" data-aos="fade-up">
                         <img src={serviceImage1} alt="House cleaning" />
                         <h3 className="text-[24px] text-[#211F54] font-[700] text-center">House cleaning</h3>
                         <p className="text-[18px] text-[#6E7191] text-center">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est.</p>
                     </div>
-                    <div className="flex flex-col items-center gap-[15px]">
+                    <div className="flex flex-col items-center gap-[15px]" data-aos="fade-up">
                         <img src={serviceImage2} alt="Office cleaning" />
                         <h3 className="text-[24px] text-[#211F54] font-[700] text-center">Office cleaning</h3>
                         <p className="text-[18px] text-[#6E7191] text-center">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est.</p>
                     </div>
-                    <div className="flex flex-col items-center gap-[15px]">
+                    <div className="flex flex-col items-center gap-[15px]" data-aos="fade-up">
                         <img src={serviceImage3} alt="INdustrial cleaning" />
                         <h3 className="text-[24px] text-[#211F54] font-[700] text-center">Industrial cleaning</h3>
                         <p className="text-[18px] text-[#6E7191] text-center">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel facilisis volutpat est.</p>
