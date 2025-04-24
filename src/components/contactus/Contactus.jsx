@@ -3,10 +3,10 @@ import phoneLogo from "../../assets/icons/phone-logo.png";
 function Contactus(){
     return (
         <div className="">
-            <div className="w-[1220px] mx-auto px-[20px] py-[20px]">
+            <div className="xl:w-[1220px] lg:w-[1000px] md:w-[720px] mx-auto px-[20px] md:px-[10px] py-[20px]">
                 <h1 className="text-[44px] font-[500] text-[#211F54]">Contact us</h1>
-                <div className="flex items-start gap-[20px]">
-                    <div className=" pr-[30px] py-[30px] w-[50%] ">
+                <div className="flex lg:flex-row sm:flex-col items-start gap-[20px]">
+                    <div className=" pr-[30px] lg:py-[30px] lg:w-[50%]  ">
                         <p className="text-[18px] text-[#6E7191] leading-[30px] w-[75%]">In dignissim euismod pretium amet enim a eu nam ut urna accumsan pellentesque lacus duis pharetra eutortor.</p>
                         <div className="inline-block flex gap-[25px] items-center cursor-pointer mt-[15px] ">
                             <div className="flex items-center gap-[15px] hover:scale-105 duration-300  px-[10px] rounded-[14px] shadow-sm">
@@ -22,7 +22,7 @@ function Contactus(){
                         <p className="text-[18px] text-[#6E7191] leading-[30px] w-[75%] pt-[15px]">Massa bibendum consectetur maurisid gravida purus, dolor dui amet morbi non nunc urna purus diam.</p>
                         <a className="mt-[15px] text-[#211F54] bg-[#fff] text-[18px] font-[600] py-[18px] px-[26px] rounded-[14px] inline-block hover:bg-[#0075FF] hover:text-[#fff] hover:scale-105 duration-300 ml-[10px] shadow-sm" href="">Browse our packages</a>
                     </div>
-                    <form className=" pl-[30px] py-[30px] w-[50%] flex flex-col gap-[15px]" action="">
+                    <form className=" pl-[30px] py-[30px] lg:w-[50%] md:w-[70%] flex flex-col gap-[15px]" action="">
                         <div className="flex gap-[50px]">
                             <div className="flex flex-col">
                                 <label className="text-[18px] text-[#211F54]" htmlFor="">Full name</label>
@@ -55,7 +55,7 @@ function Contactus(){
                         </div>
                         <div>
                             <p className="text-[18px] text-[#211F54]">Add note</p>
-                            <textarea className="border-1 border-[#DCDDEB] rounded-[16px] px-[8px] py-[12px] w-[82%] outline-none" name="" id=""></textarea>
+                            <textarea className="border-1 border-[#DCDDEB] rounded-[16px] px-[8px] py-[12px] lg:w-[82%] md:w-[97%] outline-none" name="" id=""></textarea>
                         </div>
                         <button className="text-[#fff] bg-[#0075FF] text-[18px] font-[600] py-[12px] px-[24px] rounded-[14px] inline-block w-[11em] hover:scale-105 duration-300 mr-[10px]">Submit message</button>
                     </form>
